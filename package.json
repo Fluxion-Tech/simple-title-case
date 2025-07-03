@@ -1,0 +1,22 @@
+{
+  "name": "simple-title-case",
+  "version": "1.0.1",
+  "description": "A simple utility to convert strings to Title Case",
+  "main": "index.js",
+  "keywords": [
+    "title case",
+    "string",
+    "capitalize",
+    "text utility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonumehtaskr/simple-title-case.git"
+  },
+  "author": "Sonu Kumar",
+  "license": "MIT",
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.js"
+  }
+}
