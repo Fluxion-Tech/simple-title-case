@@ -1,19 +1,32 @@
-Here’s a complete `README.md` for your **`simple-title-case`** npm package:
+Great! Since you're building a CLI tool for your `simple-title-case` package, let's **modify and enhance the README** to include:
+
+* CLI usage instructions
+* Installation for CLI
+* Examples from command line
 
 ---
 
-````markdown
 # simple-title-case
 
-🧠 A simple utility to convert strings to Title Case — perfect for frontend and backend JavaScript projects.
+🧠 A simple utility to convert strings to Title Case — perfect for frontend, backend, and now **command-line use**.
 
 ---
 
 ## 🚀 Installation
 
+### Use in JavaScript (Node.js / React)
+
 ```bash
 npm install simple-title-case
 ````
+
+### Use as a CLI Tool (Global Install)
+
+```bash
+npm install -g simple-title-case
+```
+
+This gives you access to the `titlecase` command in your terminal!
 
 ---
 
@@ -45,6 +58,24 @@ export default App;
 
 ---
 
+## 🖥️ CLI Usage
+
+After installing globally:
+
+```bash
+titlecase "hello world from CLI"
+# Output: Hello World From CLI
+```
+
+You can also pipe input into it:
+
+```bash
+echo "pipe me in" | titlecase
+# Output: Pipe Me In
+```
+
+---
+
 ## 🧪 Example Inputs & Outputs
 
 | Input                 | Output                |
@@ -58,12 +89,37 @@ export default App;
 
 ## 💡 Why Use This?
 
-* Simple, clean, no dependencies
-* Works in Node.js and browser environments
-* Ideal for form formatting, article titles, UI labels, etc.
+* ✅ Simple, clean, and no dependencies
+* ⚡ Fast and lightweight
+* 🌐 Works in Node.js, browsers, and the command line
+* 🎯 Great for formatting user inputs, article titles, UI labels, etc.
 
-------
+---
+
+## 🔧 CLI Installation & Linking (Dev)
+
+If you're working on the package locally:
+
+```bash
+npm link
+```
+
+Then run:
+
+```bash
+titlecase "linked usage"
+```
+
+---
 
 ## 📦 Source Code
 
-[GitHub Repository](https://github.com/your-username/simple-title-case)
+[GitHub Repository](https://github.com/sonumehtaskr/simple-title-case)
+
+---
+
+## 🪪 License
+
+MIT © Sonu Kumar
+
+```

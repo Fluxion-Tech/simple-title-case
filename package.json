@@ -18,5 +18,8 @@
   "exports": {
     "require": "./index.js",
     "import": "./index.js"
+  },
+  "bin": {
+    "titlecase": "./cli.js"
   }
 }
